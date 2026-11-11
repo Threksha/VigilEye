@@ -85,7 +85,7 @@ python main.py --source 0 --email
 | Alerts too slow / fast | `dwell_seconds`, `removed_dwell` |
 | Owner standing near bag still triggers | raise `owner_margin` or use `--yolo` |
 
-## Known limitations (good to mention in your report)
+## Known limitations
 
 * Without `--yolo`, a person who stands completely still for a long time can be
   mistaken for an abandoned object. YOLO mode fixes this.
